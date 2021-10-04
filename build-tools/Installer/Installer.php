@@ -60,6 +60,17 @@ class Installer {
 		),
 	);
 
+	protected const FILES = array(
+		'/build-tools/scoper.inc.php',
+		'/config/dependencies.php',
+		'/config/registration.php',
+		'/config/settings.php',
+		'/index.php',
+		'/package.json',
+		'/composer.json',
+		'/build.sh',
+	);
+
 	/**
 	 * @var Installation
 	 */
