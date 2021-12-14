@@ -31,7 +31,7 @@ class Installation {
 	/**
 	 * @var string
 	 */
-	protected $autoloader_suffix;
+	protected $autoloader_suffix = 'pc_theme';
 
 	/**
 	 * @var string

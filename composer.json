@@ -1,15 +1,11 @@
 {
-    "name": "##PACKAGE_NAME##",
+    "name": "##THEME_NAME##",
     "type": "library",
-    "description": "##PLUGIN_DESCRIPTION##",
+    "description": "##THEME_DESCRIPTION##",
     "keywords": [],
-    "homepage": "##PLUGIN_URL##",
+    "homepage": "##THEME_URL##",
     "license": "MIT",
-    "authors": [{
-        "name": "##AUTHOR_NAME##",
-        "email": "##AUTHOR_EMAIL##",
-        "homepage": "##AUTHOR_URL##"
-    }],
+    "authors": [],
     "autoload": {
         "psr-4": {
             "##NAMESPACE##\\": "../src"
@@ -56,6 +52,6 @@
     "prefer-stable": true,
     "config": {
         "prepend-autoloader": true,
-        "autoloader-suffix": "##DEV_AUTLOADER_PREFIX##"
+        "autoloader-suffix": "##DEV_AUTLOADER_SUFFIX##"
     }
 }
